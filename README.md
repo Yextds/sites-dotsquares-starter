@@ -1,1 +1,1 @@
-# Welcome to Yext Sites!
+# Welcome to Yext's Fashion Warehouse!
