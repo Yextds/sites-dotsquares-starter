@@ -11,14 +11,15 @@ module.exports = {
       textColor: theme => theme('colors'),
     textColor: {
       primary: '#000',
-      secondary: '#412946',
+      secondary: '#f0e4b8',
       white          :   '#fff',
       black          :   '#000',
+      textcolor      :   '#333333',
       yellow         :   '#f87f00',
       yellowText      :  '#fecb00',
       lightYellow     :  '#f87c01',
       lgihtOrage      :  '#f84411',
-      gray            :  '#8c8c8c',
+      gray            :  '#a6b3c0',
       lightGray       :  '#e0e1e2',
       yellowBright    :  '#fecb00',
       transparent     :  'transparent',
@@ -30,15 +31,20 @@ module.exports = {
     backgroundColor: theme => ({
       ...theme('colors'),
       'primary': '#3e2d47',
-      'secondrylight' : '#412946',
+      'secondrylight' : '#f0e4b8',
       'secondary': '#8b8b8b',
       'third': '#2f2e2e',
       'bodybg' : '#f4f4f4',
-      'footerbg' : '#222'
+      'footerbg' : '#222',
+      'buttonbg' : '#000',
+      'testibg' : '#142230',
+
+
      }),
 
     fontFamily: {
-      'Josefin': ["Josefin Sans", "sans-serif"],
+      'OpenSans': ["Open Sans", "sans-serif"],
+      'Oswald': ["Oswald", "sans-serif"],
     },
 
 
